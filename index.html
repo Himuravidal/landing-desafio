@@ -1,147 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-    <meta charset="utf-8">
+<!-- Meta-->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Half Slider - Start Bootstrap Template</title>
+<title>Desafío Latam</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/f29cb5014b.js"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/half-slider.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!--Alternative Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet"> 
+
+<!-- Optional theme -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!-- Pre Jquery load--> 
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </head>
-
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<div class="container-fluid main">
 
-    <!-- Half Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand resp" href="#"><img src="images/latam_logo.png" style="max-width: 140px" class="img-responsive"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right" style="margin-right:150px;margin-top: 20px">
+          <li><a href="#">Equipo</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
+  <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
+    <div class="carousel-inner" role="listbox">
+      <div class="item active background a"></div>
+      <div class="item background b"></div>
+    </div>
+  </div>
+  
+  <div class="covertext head-banner text-center">
+    <div class="col-md-3"></div>
+    <div class="col-md-6" style="float:none; margin:0 auto;">
+      <h1>COMIENZA UNA NUEVA VIDA ÚNETE AL MUNDO TECNOLÓGICO</h1>
+       <a href="#" class="btn btn-info btn-carousel">Comienza Acá!</a>
+      <a href="#" class="btn btn-success btn-carousel">Más Info</a>
+      <p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
+    </div>
+    <div class="col-md-3"></div>
+     
+      
+    </div>
+  </div>
+  
+</div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
+<!-- Page Content 1 -->
+    <div class="container col-sm-12 cont-one page-1" style="border-bottom: 1px solid lightgray">
 
         <div class="row">
-            <div class="col-lg-12">
-                <h1>Half Slider by Start Bootstrap</h1>
-                <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>half-slider.css</code>file.</p>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 text-center">
+                <h3>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE LATINOAMÉRICA</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rem delectus veritatis dolorem ipsum, quod incidunt, aut autem rerum id quis reiciendis, voluptates error quo. Blanditiis sequi, adipisci quam sit.</p>
+                <div class="responsive-img">   
+                <img src="images/viewing-gallery-for-happy-people.png" style="width: 50%">
+            </div>
+            </div>
+        
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+
+<!-- Page Content 2-->
+    <div class="container col-sm-12" style="border-bottom: 1px solid lightgray">
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            
+            <div class="col-md-6 text-center">
+                <h3>SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rem delectus veritatis dolorem ipsum, quod incidunt, aut autem rerum id quis reiciendis, voluptates error quo. Blanditiis sequi, adipisci quam sit.</p>
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <a href="#" class="btn btn-info btn-carousel">Inscríbete</a>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+<!-- Page Content 3-->
+    <div class="container sub">
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            
+            <div class="col-md-3">
+                <h4>Contacto</h4>
+                <strong>Desafío Latam</strong>
+                <address>
+                Ezequías Alliende 2361<br> 
+                <p>Teléfono: +56 9 5117 7975</p>
+                <br>
+                <a href="mailto:inscripciones@desafiolatam.com">inscripciones@desafiolatam.com</a>
+                </address>
+            </div>
+
+
+            <div class="col-md-3">
+                <h4>Suscribete</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <form class="soundest-subscribe-form" style="width: 100%;"> 
+                    <input type="text" class="soundest-subscribe-input" placeholder="Ingresa tu correo..."/> 
+                    <input type="submit" value="Enviar"/>
+                </form>    
             </div>
         </div>
+    </div> 
 
-        <hr>
-
-        <!-- Footer -->
+<!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+        <div class="container">
+            <p>DESAFIO LATAM - CURSO FRONT-END G4</p>
                 </div>
+            </div>
             </div>
             <!-- /.row -->
         </footer>
 
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-
 </body>
-
 </html>
