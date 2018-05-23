@@ -2,4 +2,4 @@
 
 ## Link Github Pages
 
-[Link a landin page](https://gsalinase.github.io/landing-desafio/)
+[Link a landing page](https://gsalinase.github.io/landing-desafio/)
