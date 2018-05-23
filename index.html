@@ -1,154 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-
-<!-- Meta-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-<title>Desafío Latam</title>
-
-<script src="https://use.fontawesome.com/f29cb5014b.js"></script>
-
-<!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!--Alternative Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet"> 
-
-<!-- Optional theme -->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
-<!-- Pre Jquery load--> 
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-
-<!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-</head>
+  <!-- Metas-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desafío Latam</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--Alternative Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  <!-- Optional theme -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 <body>
-
-<div class="container-fluid main">
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span> 
-        </button>
-        <a class="navbar-brand resp" href="#"><img src="images/latam_logo.png" style="max-width: 140px" class="img-responsive"></a>
+  <!-- Navbar  -->
+  <div class="container-fluid main">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand resp" href="#"><img src="images/latam_logo.png" style="max-width: 140px" class="img-responsive"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right" style="margin-right:150px;margin-top: 20px">
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">contacto</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right" style="margin-right:150px;margin-top: 20px">
-          <li><a href="#">Equipo</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">contacto</a></li>
-        </ul>
+    </nav>
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active background a"></div>
+        <div class="item background b"></div>
       </div>
     </div>
-  </nav>
-
-  <div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel" data-interval="3000">
-    <div class="carousel-inner" role="listbox">
-      <div class="item active background a"></div>
-      <div class="item background b"></div>
+    <!-- Call to action -->
+    <div class="covertext head-banner text-center">
+      <div class="col-md-6" style="float:none; margin:0 auto;">
+        <h1>COMIENZA UNA NUEVA VIDA ÚNETE AL MUNDO TECNOLÓGICO</h1>
+        <a href="#" class="btn btn-info btn-carousel">Comienza Acá!</a>
+        <a href="#" class="btn btn-success btn-carousel">Más Info</a>
+        <p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
+      </div>
     </div>
   </div>
-  
-  <div class="covertext head-banner text-center">
-    <div class="col-md-3"></div>
-    <div class="col-md-6" style="float:none; margin:0 auto;">
-      <h1>COMIENZA UNA NUEVA VIDA ÚNETE AL MUNDO TECNOLÓGICO</h1>
-       <a href="#" class="btn btn-info btn-carousel">Comienza Acá!</a>
-      <a href="#" class="btn btn-success btn-carousel">Más Info</a>
-      <p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan más desarrolladores y Tú puedes ser uno!</p>
-    </div>
-    <div class="col-md-3"></div>
-     
-      
+  <!-- Page Content 1 -->
+  <div class="container cont-one page-1" style="border-bottom: 1px solid lightgray">
+    <div class="row">
+      <div class="text-center">
+        <h3>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE LATINOAMÉRICA</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rem delectus veritatis dolorem ipsum, quod incidunt, aut autem rerum id quis reiciendis, voluptates error quo. Blanditiis sequi, adipisci quam sit.</p>
+        <div class="responsive-img">
+        <img src="images/viewing-gallery-for-happy-people.png" class="cont-one_img">
+        </div>
+      </div>
     </div>
   </div>
-  
-</div>
-
-<!-- Page Content 1 -->
-    <div class="container col-sm-12 cont-one page-1" style="border-bottom: 1px solid lightgray">
-
-        <div class="row">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6 text-center">
-                <h3>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE LATINOAMÉRICA</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rem delectus veritatis dolorem ipsum, quod incidunt, aut autem rerum id quis reiciendis, voluptates error quo. Blanditiis sequi, adipisci quam sit.</p>
-                <div class="responsive-img">   
-                <img src="images/viewing-gallery-for-happy-people.png" style="width: 50%">
-            </div>
-            </div>
-        
-            <div class="col-lg-3"></div>
-        </div>
+  <!-- Page Content 2-->
+  <div class="container content-2">
+    <div class="row">
+      <div class="text-center">
+        <h3>SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rem delectus veritatis dolorem ipsum, quod incidunt, aut autem rerum id quis reiciendis, voluptates error quo. Blanditiis sequi, adipisci quam sit.</p>
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <a href="#" class="btn btn-info btn-carousel">Inscríbete</a>
+      </div>
     </div>
-
-<!-- Page Content 2-->
-    <div class="container col-sm-12" style="border-bottom: 1px solid lightgray">
-
-        <div class="row">
-            <div class="col-md-3"></div>
-            
-            <div class="col-md-6 text-center">
-                <h3>SOLICITA INFORMACIÓN E INSCRÍBETE</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto rem delectus veritatis dolorem ipsum, quod incidunt, aut autem rerum id quis reiciendis, voluptates error quo. Blanditiis sequi, adipisci quam sit.</p>
-                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                <a href="#" class="btn btn-info btn-carousel">Inscríbete</a>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
+  </div>
+  <!-- Page Content 3-->
+  <div class="container sub">
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Contacto</h4>
+        <strong>Desafío Latam</strong>
+        <address>
+          <p>Ezequías Alliende 2361</p>
+          <br>
+          <p>Teléfono: +56 9 5117 7975</p>
+          <br>
+          <a href="mailto:inscripciones@desafiolatam.com">inscripciones@desafiolatam.com</a>
+        </address>
+      </div>
+      <div class="col-sm-6">
+        <h4>Suscribete</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <form class="soundest-subscribe-form" style="width: 100%;">
+          <input type="text" class="soundest-subscribe-input" placeholder="Ingresa tu correo electrónico"/>
+          <input type="submit" value="Enviar"/>
+        </form>
+      </div>
     </div>
-
-<!-- Page Content 3-->
-    <div class="container sub">
-
-        <div class="row">
-            <div class="col-md-3"></div>
-            
-            <div class="col-md-3">
-                <h4>Contacto</h4>
-                <strong>Desafío Latam</strong>
-                <address>
-                Ezequías Alliende 2361<br> 
-                <p>Teléfono: +56 9 5117 7975</p>
-                <br>
-                <a href="mailto:inscripciones@desafiolatam.com">inscripciones@desafiolatam.com</a>
-                </address>
-            </div>
-
-
-            <div class="col-md-3">
-                <h4>Suscribete</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <form class="soundest-subscribe-form" style="width: 100%;"> 
-                    <input type="text" class="soundest-subscribe-input" placeholder="Ingresa tu correo..."/> 
-                    <input type="submit" value="Enviar"/>
-                </form>    
-            </div>
-        </div>
-    </div> 
-
-<!-- Footer -->
-        <footer>
-        <div class="container">
-            <p>DESAFIO LATAM - CURSO FRONT-END G4</p>
-                </div>
-            </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
+  </div>
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <p>DESAFIO LATAM - CURSO FRONT-END G4</p>
+  </footer>
+  <!-- Jquery 3.3.7 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

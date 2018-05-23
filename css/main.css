@@ -108,6 +108,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
 /* CSS Hack to trigger GPU for smooth transition */
 
 .covertext {
@@ -180,7 +181,7 @@ footer{
 
 .nav-logo{
   padding-left: 100px;
-} 
+}
 .head-banner{
   color: #fff;
 }
@@ -197,6 +198,18 @@ footer{
 }
 .page-1{
   font-family: sans-serif;
+}
+
+.cont-one_img {
+  width: 50%;
+}
+
+.content-2 {
+  border-bottom: 1px solid lightgray;
+}
+
+footer {
+  text-align: center;
 }
 
 @media (max-width: 768px){
